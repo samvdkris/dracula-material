@@ -1,0 +1,21 @@
+{
+    "name": "dracula-material",
+    "displayName": "dracula-material",
+    "description": "A slightly darker fork of the dracula theme without the ugly borders",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dracula material",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dracula material-color-theme.json"
+            }
+        ]
+    }
+}
